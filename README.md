@@ -44,7 +44,7 @@ RAG pipeline implementation example for the Russian language.
 - Python 3.9;
 - GPU is recommended but the code also works on CPU. Generation time:
   - MacBook Pro 13', M2, 2022 - approx. 20 minutes;
-  - AWS g5.4xlarge EC2 сервер - approx. one minute.
+  - AWS g5.4xlarge EC2 machine - approx. one minute.
 
 ### Usage
 
