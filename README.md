@@ -13,7 +13,9 @@
 
 ## Использование
 
-- `pip install git+https://github.com/mpashkovskii/ru-rag.git` или склонируйте репозиторий и выполните `make install` в папке;
+- Выполните одно из двух:
+  - `pip install git+https://github.com/mpashkovskii/ru-rag.git` для установки модуля;
+  - или склонируйте репозиторий, выполните `make install` в папке и потом активируйте виртуальное окружение командой `source .venv/bin/activate`;
 - Поместите CSV файлы датасета в папку `data`. Пример файла: [dataset_example.csv](dataset_example.csv);
   - файлы должны иметь расширение `.csv`;
   - в файлах должен присутсвовать заголовок - имена колонок;
@@ -48,7 +50,9 @@ RAG pipeline implementation example for the Russian language.
 
 ### Usage
 
-- `pip install pip@git+https://github.com/mpashkovskii/ru-rag.git` or clone the repo and run `make install` in the folder;
+- Either:
+  - execute `pip install pip@git+https://github.com/mpashkovskii/ru-rag.git` to install the package;
+  - or clone the repo, run `make install` in the folder, and `source .venv/bin/activate` to activate the virtual environment;
 - Put dataset CSV files in `data` directory. CSV file example: [dataset_example.csv](dataset_example.csv).
   - files have to have `.csv` extension;
   - files have to have a header consisting of column names;
